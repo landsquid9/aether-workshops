@@ -19,8 +19,8 @@
  /* We declare some variables to hold the name of the network we are connecting
  *  to, and the password. 
  */
-const char* ssid     = "Watery Grave 2.4";
-const char* password = "PigTurtle16";
+const char* ssid     = "ssid";
+const char* password = "pass";
 
 /* We set up Aether */
 AetherClient ae;
