@@ -19,8 +19,8 @@ NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and
 
 /* Start the aether client */
 AetherClient ae;
-const char* ssid = "401Router";
-const char* password = "WT2A84tx";
+const char* ssid = "SSID";
+const char* password = "PASS";
 
 void setup() {
   Serial.begin(115200); // Open serial monitor at 115200 baud to see ping results.
